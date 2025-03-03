@@ -87,7 +87,7 @@ class Skylink:
         self._storage_file = os.path.join(
             self._storage_path, "%s.session" % username.lower()
         )
-        self._url = "https://livetv." + provider
+        self._url = "https://m7cz.solocoo.tv"            #------- Old URL does not work now:  self._url = "https://livetv." + provider
         self._api_url = self._url + "/m7cziphone/"
         self._show_pin_protected = show_pin_protected
         self._load_session()
